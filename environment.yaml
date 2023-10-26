@@ -19,5 +19,5 @@ dependencies:
   - matplotlib=3.3.1
   - wxpython=4.0.7
   - pip:
-    - simple_3dviz==0.4.0
+    - git+https://github.com/VadymMalitskyi/ATISS.git
     - pytorch-fast-transformers==0.4.0

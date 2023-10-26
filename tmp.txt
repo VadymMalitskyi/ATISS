@@ -1,0 +1,4 @@
+# preprocess data
+python preprocess_data.py "/home/vadym_wsl_laptop/projects/ATISS/output_dir" "/home/vadym_wsl_laptop/projects/ATISS/data/3D-FRONT" "/home/vadym_wsl_laptop/projects/ATISS/data/3D-FUTURE-model" "/home/vadym_wsl_laptop/projects/ATISS/data/3D-FUTURE-model/model_info.json" "/home/vadym_wsl_laptop/projects/ATISS/demo/floor_plan_texture_images" --dataset_filtering threed_front_bedroom
+
+python render_threedfront_scene.py "MasterBedroom-8583" "/home/vadym_wsl_laptop_laptop/projects/ATISS/output_dir" "/home/vadym_wsl_laptop/projects/3d_front_dataset/archives/3D-FRONT" "/home/vadym_wsl_laptop/projects/3d_front_dataset/archives/3D-FUTURE-model" "/home/vadym_wsl_laptop/projects/3d_front_dataset/archives/3D-FUTURE-model/model_info.json" "/home/vadym_wsl_laptop/projects/ATISS/demo/floor_plan_texture_images"
